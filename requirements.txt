@@ -1,0 +1,12 @@
+requests==2.18.4
+scikit-learn==0.19.1
+scipy==1.0.0
+numpy==1.14.1
+pandas==0.22.0
+urllib3==1.22
+dash==0.21.0
+dash-core-components==0.20.2
+dash-html-components==0.9.0
+dash-renderer==0.11.3
+Flask==0.12.2
+Flask-Compress==1.4.0
