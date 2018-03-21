@@ -2,12 +2,12 @@
 
 A simple similarity engine that can match the pseudonym and the real name of an artist.
 
-It first get the answer returned from [duckduckgo](https://duckduckgo.com/api), then use the abstract and abstract_url
-of the answers to build a corpus.
+It use the answer returned from [duckduckgo](https://duckduckgo.com/api) to build several
+features.
+The main feature is based on the **tfidf** of the abstracts of *real names* and *pseudonym*, the dot product between the features denotes the similiarites.
 
-The algorithm is based on the **tfidf** of the *real names* and *pseudonym*, you may
-aslo need to adjsut the weight of words from abstract_url in the corpus to get better match 
-results
+You could find detailed explanation of how these features are built in the attached *jupyter notebook*.
+
 
 ### Requirements
 
