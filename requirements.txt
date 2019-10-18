@@ -8,6 +8,6 @@ dash==0.21.0
 dash-core-components==0.20.2
 dash-html-components==0.9.0
 dash-renderer==0.11.3
-Flask==0.12.2
+Flask==1.0
 Flask-Compress==1.4.0
 Unidecode==1.0.22
